@@ -197,7 +197,7 @@ function BrowserApp() {
 
 	this.mount = () => {
 		let body = btoa(
-			`<body style="background: #000; color: #fff">Welcome to <i>Scramjet</i>! Type in a URL in the omnibox above and press enter to get started.</body>`
+			`<body style="background: #000; color: #fff">Welcome to <i>NovaX</i>! Type in a URL in the box above and press enter to get started.</body>`
 		);
 		frame.go(`data:text/html;base64,${body}`);
 	};
